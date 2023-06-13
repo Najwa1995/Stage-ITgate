@@ -1,0 +1,33 @@
+.newsletter {
+    padding: 0;
+    margin-top: 5rem;
+    background: steelblue;
+}
+
+.newsletter_content {
+    margin: 2rem 3rem;
+
+}
+
+.newsletter_img {
+    margin: 3rem;
+    margin-left: 10rem;
+    width: 100%;
+}
+
+.newsletter_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.newsletter_input input {
+  border-radius: 5px;
+}
+
+.newsletter_input button {
+    margin-left: 10rem;
+}

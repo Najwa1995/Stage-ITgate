@@ -1,0 +1,25 @@
+.gallery {
+    width: 100%;
+    margin: 30px 40px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px !important;
+}
+
+.gallery img {
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+    width: 32vh;
+    align-items: center;
+    height: 30vh;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.gallery1 {
+    box-shadow: (0, 0, 0, 0.2) 0px 18px 50px -10px !important;
+}
