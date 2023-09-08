@@ -14,12 +14,17 @@ import FeaturedToursList from '../FeaturedTours/FeaturedToursList';
 import GalleryImg from '../Image_Gallery/GalleryImg';
 import FansLove from '../fanslove/FansLove';
 import NewLetters from '../mainpages/NewLetters';
+import Footer from '../Footer/footer';
+import Header from '../Header/Header';
 
 const Home = () => {
   return (
     <>
+
       {/* // *********************** premier section *********************** */}
+      < Header />
       <section>
+
         <Container>
           <Row>
             <Col lg='6'>
@@ -32,6 +37,7 @@ const Home = () => {
                 </div>
 
                 <h1> Traveling opens the door creating <span className='hightlight'>memories</span> </h1>
+               
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                   et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                   aliquip ex ea commodo consequat.</p>
@@ -153,12 +159,14 @@ const Home = () => {
         </Container>
 
       </section >
-{/* *******************Subscribe ******************* */}
+      {/* *******************Subscribe ******************* */}
       < NewLetters />
 
+      {/* < Footer /> */}
     </>
 
   )
 }
+
 
 export default Home

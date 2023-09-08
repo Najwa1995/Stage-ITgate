@@ -14,10 +14,10 @@ const NewLetters = () => {
                             <h2>Subscribe now to get useful travelling information</h2>
                             <div className='newsletter_input'>
                                 <input type='email' placeholder='enter your email' />
-                                <button className='btn newsletter_btn' >Subcribe</button>
+                                <button className='btn newsletter_btn' >Subscribe</button>
                             </div>
 
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eligendi, velit deserunt corrupti voluptatibus natus earum nostrum explicabo reiciendis! Sit consequatur vitae doloribus a, assumenda dignissimos cumque molestiae optio quisquam?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </Col>
 

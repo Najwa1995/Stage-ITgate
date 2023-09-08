@@ -8,10 +8,15 @@ Nav {
     left: 0;
     box-shadow: 3px 3px 8px -3px #ddd;
     z-index: 999;
+   
 
 
 
 }
+
+/* .navbar {
+    margin-bottom: 30px;
+} */
 
 /* header {
 
@@ -190,4 +195,10 @@ Nav #btn1 {
 .exp-1 {
     display: flex;
     justify-content: space-between;
+}
+
+
+.searchbar {
+    margin-top: 40vh !important;
+    margin-left: 37vh !important;
 }

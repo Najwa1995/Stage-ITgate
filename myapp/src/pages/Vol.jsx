@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Vol = () => {
+const Vols = () => {
     return (
         <div>Vol page</div>
     )
 }
 
-export default Vol
+export default Vols

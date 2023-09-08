@@ -5,12 +5,17 @@ import './gallery.css'
 
 const GalleryImg = () => {
     return (
-
-        <div className='gallery'>
-            {gallery.map((item, index) => (
-                <img src={item} key={index} className='gap-3' />
-            ))}
-        </div>
+        <Container>
+            <Row>
+                <Col lg="12">
+                    <div className='gallery gap-4'>
+                        {gallery.map((item, index) => (
+                            <img src={item} key={index} />
+                        ))}
+                    </div>
+                </Col>
+            </Row>
+        </Container>
     )
 }
 

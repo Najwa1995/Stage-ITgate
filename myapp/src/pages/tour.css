@@ -1,0 +1,30 @@
+.pagination span {
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid brown;
+    justify-content: center;
+    color: grey;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.active_page {
+    background: brown;
+    color: #fff !important;
+}
+
+
+
+section .tourcard {
+    margin-top: 50px;
+}
+
+.search-bar {
+    margin-top: 40px !important;
+    margin-left: 37vh !important;
+}

@@ -14,6 +14,7 @@ const dataTours = [
     title: "Westminister Bridge",
     city: "London",
     distance: 300,
+    adresse: "Tunis",
     price: 99,
     maxGroupSize: 10,
     desc: "this is the description",
@@ -21,6 +22,10 @@ const dataTours = [
       {
         name: "jhon doe",
         rating: 4.6,
+      },
+      {
+        name: "Dhahri najwa",
+        rating: 5,
       },
 
 
@@ -34,6 +39,7 @@ const dataTours = [
     title: "Bali, Indonesia",
     city: "Indonesia",
     distance: 400,
+    adresse: "Tunis",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -52,6 +58,7 @@ const dataTours = [
     title: "Snowy Mountains, Thailand",
     city: "Thailand",
     distance: 500,
+    adresse: "Tunis",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -70,11 +77,15 @@ const dataTours = [
     title: "Beautiful Sunrise, Thailand",
     city: "Thailand",
     distance: 500,
+    adresse: "Tunis",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
-
+      {
+        name: "jhon does",
+        rating: 4.5,
+      },
     ],
     avgRating: 4.5,
     photo: tourImg04,
@@ -85,6 +96,7 @@ const dataTours = [
     title: "Nusa Pendia Bali, Indonesia",
     city: "Indonesia",
     distance: 500,
+    adresse: "Tunis",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -100,6 +112,7 @@ const dataTours = [
     title: "Cherry Blossoms Spring",
     city: "Japan",
     distance: 500,
+    adresse: "Tunis",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -122,6 +135,7 @@ const dataTours = [
     title: "Holmen Lofoten",
     city: "France",
     distance: 500,
+    adresse: "Tunis",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -140,6 +154,7 @@ const dataTours = [
     title: "Snowy Mountains, Thailand",
     city: "Thailand",
     distance: 500,
+    adresse: "Tunis",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",

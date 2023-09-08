@@ -77,7 +77,10 @@ const Header = () => {
             <h1>  Bienvenue sur dhahriBooking.com </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-          <SearchBar />
+          <div className='searchbar'>
+            <SearchBar />
+          </div>
+
         </div>
 
       </header>

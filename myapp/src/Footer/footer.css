@@ -1,5 +1,53 @@
 .footer {
-    background-color: black;
-    color: aliceblue;
-    height: 20vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+
+.logo a {
+    /* margin-top: 20px; */
+    width: 50%;
+    text-decoration: none;
+    color: darkorange;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.logo a span {
+    color: brown;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.logo p {
+    color: rgb(57, 54, 54);
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.social_links span a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.footer_title {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer_title1 a {
+    text-decoration: none;
+    color: rgb(57, 54, 54);
+}
+
+
+.copyright {
+    color: rgb(57, 54, 54);
+    color: 1.2rem;
 }

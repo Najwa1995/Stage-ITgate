@@ -10,6 +10,9 @@ const TourCard = ({ tour }) => {
     const { id, title, city, distance, price, maxGroupSize, desc, reviews, photo, featured } = tour
     const { totalRating, avgRating } = calculateAvgRating(reviews)
 
+
+
+
     return (
 
         <div className='tour-card'>
@@ -26,8 +29,9 @@ const TourCard = ({ tour }) => {
                             <i className="fa-sharp fa-solid fa-location-dot"></i>{city}
                         </span>
                         <span className='tour-rating d-flex align-items-center gap-1'>
-                            <i className="fa-solid fa-star"></i>{avgRating === 0 ? null : avgRating}
-                            {totalRating === 0 ? ("Not rated") : (<span>({reviews.length})</span>)}
+                            <i className="fa-solid fa-star"></i>
+                            {avgRating == 0 ? null : avgRating}
+                            {totalRating == 0 ? ("Not rated") : (<span>({reviews.length})</span>)}
 
                         </span>
                     </div>
